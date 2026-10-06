@@ -26,7 +26,7 @@ BlockForgeUltimate is built to be simple and practical, focusing on doing one th
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/harutosati/BlockForgeUltimate.git`
+1. Clone the repository: `git clone https://github.com/centxyz/BlockForgeUltimate.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 
 ## Configuration
@@ -42,4 +42,4 @@ Contributions are welcome. Open an issue for bugs or feature requests, or submit
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/harutosati/BlockForgeUltimate/blob/main/LICENSE) file.
+Released under the MIT License — see the [LICENSE](https://github.com/centxyz/BlockForgeUltimate/blob/main/LICENSE) file.
