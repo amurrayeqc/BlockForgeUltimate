@@ -42,3 +42,9 @@ BlockForgeUltimate never requests or stores private keys. Wallet approval is sti
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- Read and write operations depend on the connected wallet, selected network, RPC provider, and supplied ABI.
+- The interface does not audit contract safety or simulate every state-changing transaction.
+- Users must verify addresses, calldata, value, and network details in their wallet before approval.
