@@ -1,8 +1,8 @@
-# BlockForgeUltimate
+# CalldataForge
 
-[![CI](https://github.com/centxyz/BlockForgeUltimate/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/BlockForgeUltimate/actions/workflows/ci.yml)
+[![CI](https://github.com/centxyz/CalldataForge/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/CalldataForge/actions/workflows/ci.yml)
 
-BlockForgeUltimate is a client-side EVM contract workbench. Paste a contract ABI or compiler artifact, choose a function, enter typed arguments, inspect the generated calldata, run read-only calls, or submit state-changing transactions through an injected wallet.
+CalldataForge is a client-side EVM contract workbench. Paste a contract ABI or compiler artifact, choose a function, enter typed arguments, inspect the generated calldata, run read-only calls, or submit state-changing transactions through an injected wallet.
 
 ## Capabilities
 
@@ -18,8 +18,8 @@ BlockForgeUltimate is a client-side EVM contract workbench. Paste a contract ABI
 ## Run locally
 
 ```bash
-git clone https://github.com/centxyz/BlockForgeUltimate.git
-cd BlockForgeUltimate
+git clone https://github.com/centxyz/CalldataForge.git
+cd CalldataForge
 npm install
 npm run dev
 ```
@@ -37,7 +37,7 @@ Tests cover ABI/artifact parsing, typed input validation, deterministic calldata
 
 ## Safety
 
-BlockForgeUltimate never requests or stores private keys. Wallet approval is still a real signature: verify the chain, contract address, function, arguments, calldata, and value before confirming.
+CalldataForge never requests or stores private keys. Wallet approval is still a real signature: verify the chain, contract address, function, arguments, calldata, and value before confirming.
 
 ## License
 
