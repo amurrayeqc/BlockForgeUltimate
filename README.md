@@ -1,5 +1,7 @@
 # BlockForgeUltimate
 
+[![CI](https://github.com/centxyz/BlockForgeUltimate/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/BlockForgeUltimate/actions/workflows/ci.yml)
+
 BlockForgeUltimate is a client-side EVM contract workbench. Paste a contract ABI or compiler artifact, choose a function, enter typed arguments, inspect the generated calldata, run read-only calls, or submit state-changing transactions through an injected wallet.
 
 ## Capabilities
